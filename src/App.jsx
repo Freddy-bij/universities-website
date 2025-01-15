@@ -1,8 +1,11 @@
+import SectionA from "./components/SectionA"
 
 
 const App = () => {
   return (
-    <div> this is university app</div>
+    <div>
+      <SectionA />
+    </div>
   )
 }
 
