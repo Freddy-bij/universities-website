@@ -1,8 +1,11 @@
+import Navbar from "./Components/Navbar"
 
 
 const App = () => {
   return (
-    <div> this is university app</div>
+    <div>
+      <Navbar/>
+    </div>
   )
 }
 
