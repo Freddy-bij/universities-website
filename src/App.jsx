@@ -1,8 +1,22 @@
+import { BrowserRouter, Route, Routes } from "react-router"
+import CountriesUn from "./Pages/CountriesUn"
+import Home from "./Pages/Home"
+import ContactUs from "./Pages/ContactUs"
 
 
 const App = () => {
   return (
-    <div> this is university app</div>
+    <>
+    <BrowserRouter>
+    
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/countries" element={<CountriesUn/>}/>
+      <Route path="/contact" element={<ContactUs/>}/>
+    </Routes>
+    </BrowserRouter>
+    
+    </>
   )
 }
 
